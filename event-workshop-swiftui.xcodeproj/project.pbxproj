@@ -13,6 +13,18 @@
 		98D325E629F7CDBB00EB3777 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D325E529F7CDBB00EB3777 /* Preview Assets.xcassets */; };
 		98D325E829F7CDBB00EB3777 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D325E729F7CDBB00EB3777 /* Persistence.swift */; };
 		98D325EB29F7CDBB00EB3777 /* event_workshop_swiftui.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98D325E929F7CDBB00EB3777 /* event_workshop_swiftui.xcdatamodeld */; };
+		98D325F629F7D99800EB3777 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D325F529F7D99800EB3777 /* HomeView.swift */; };
+		98D325F829F7D9BA00EB3777 /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D325F729F7D9BA00EB3777 /* EventDetailView.swift */; };
+		98D325FB29F7DA1600EB3777 /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D325FA29F7DA1600EB3777 /* Consts.swift */; };
+		98D325FF29F7DA6200EB3777 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D325FE29F7DA6200EB3777 /* Styles.swift */; };
+		98D3260129F7DA9600EB3777 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D3260029F7DA9600EB3777 /* Config.swift */; };
+		98D3260929F7DD9900EB3777 /* AirbnbCereal_W_Bk.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98D3260429F7DD9900EB3777 /* AirbnbCereal_W_Bk.otf */; };
+		98D3260A29F7DD9900EB3777 /* AirbnbCereal_W_Md.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98D3260529F7DD9900EB3777 /* AirbnbCereal_W_Md.otf */; };
+		98D3260B29F7DD9900EB3777 /* AirbnbCereal_W_Bd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98D3260629F7DD9900EB3777 /* AirbnbCereal_W_Bd.otf */; };
+		98D3260C29F7DD9900EB3777 /* AirbnbCereal_W_Lt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98D3260729F7DD9900EB3777 /* AirbnbCereal_W_Lt.otf */; };
+		98D3260D29F7DD9900EB3777 /* AirbnbCereal_W_Blk.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98D3260829F7DD9900EB3777 /* AirbnbCereal_W_Blk.otf */; };
+		98D3261029F7E4CE00EB3777 /* EventItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D3260F29F7E4CE00EB3777 /* EventItemView.swift */; };
+		98D3261229F7EE7D00EB3777 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D3261129F7EE7D00EB3777 /* Event.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +35,19 @@
 		98D325E529F7CDBB00EB3777 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		98D325E729F7CDBB00EB3777 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		98D325EA29F7CDBB00EB3777 /* event_workshop_swiftui.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = event_workshop_swiftui.xcdatamodel; sourceTree = "<group>"; };
+		98D325F529F7D99800EB3777 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		98D325F729F7D9BA00EB3777 /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+		98D325FA29F7DA1600EB3777 /* Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		98D325FE29F7DA6200EB3777 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		98D3260029F7DA9600EB3777 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		98D3260329F7DD4F00EB3777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		98D3260429F7DD9900EB3777 /* AirbnbCereal_W_Bk.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AirbnbCereal_W_Bk.otf; path = ../../../../../Downloads/fonts/AirbnbCereal_W_Bk.otf; sourceTree = "<group>"; };
+		98D3260529F7DD9900EB3777 /* AirbnbCereal_W_Md.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AirbnbCereal_W_Md.otf; path = ../../../../../Downloads/fonts/AirbnbCereal_W_Md.otf; sourceTree = "<group>"; };
+		98D3260629F7DD9900EB3777 /* AirbnbCereal_W_Bd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AirbnbCereal_W_Bd.otf; path = ../../../../../Downloads/fonts/AirbnbCereal_W_Bd.otf; sourceTree = "<group>"; };
+		98D3260729F7DD9900EB3777 /* AirbnbCereal_W_Lt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AirbnbCereal_W_Lt.otf; path = ../../../../../Downloads/fonts/AirbnbCereal_W_Lt.otf; sourceTree = "<group>"; };
+		98D3260829F7DD9900EB3777 /* AirbnbCereal_W_Blk.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AirbnbCereal_W_Blk.otf; path = ../../../../../Downloads/fonts/AirbnbCereal_W_Blk.otf; sourceTree = "<group>"; };
+		98D3260F29F7E4CE00EB3777 /* EventItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventItemView.swift; sourceTree = "<group>"; };
+		98D3261129F7EE7D00EB3777 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +80,13 @@
 		98D325DD29F7CDB900EB3777 /* event-workshop-swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				98D3260329F7DD4F00EB3777 /* Info.plist */,
+				98D3260229F7DCAB00EB3777 /* fonts */,
+				98D325F929F7D9EB00EB3777 /* Utils */,
+				98D325F429F7D5F400EB3777 /* ViewModels */,
+				98D325F329F7D5E200EB3777 /* Model */,
+				98D325F229F7D5CE00EB3777 /* view */,
+				98D325F129F7D59B00EB3777 /* data */,
 				98D325DE29F7CDB900EB3777 /* event_workshop_swiftuiApp.swift */,
 				98D325E029F7CDB900EB3777 /* ContentView.swift */,
 				98D325E229F7CDBB00EB3777 /* Assets.xcassets */,
@@ -71,6 +103,68 @@
 				98D325E529F7CDBB00EB3777 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		98D325F129F7D59B00EB3777 /* data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		98D325F229F7D5CE00EB3777 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				98D3260E29F7DF5B00EB3777 /* widgets */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		98D325F329F7D5E200EB3777 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				98D3261129F7EE7D00EB3777 /* Event.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98D325F429F7D5F400EB3777 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		98D325F929F7D9EB00EB3777 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				98D325FA29F7DA1600EB3777 /* Consts.swift */,
+				98D325FE29F7DA6200EB3777 /* Styles.swift */,
+				98D3260029F7DA9600EB3777 /* Config.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		98D3260229F7DCAB00EB3777 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				98D3260629F7DD9900EB3777 /* AirbnbCereal_W_Bd.otf */,
+				98D3260429F7DD9900EB3777 /* AirbnbCereal_W_Bk.otf */,
+				98D3260829F7DD9900EB3777 /* AirbnbCereal_W_Blk.otf */,
+				98D3260729F7DD9900EB3777 /* AirbnbCereal_W_Lt.otf */,
+				98D3260529F7DD9900EB3777 /* AirbnbCereal_W_Md.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		98D3260E29F7DF5B00EB3777 /* widgets */ = {
+			isa = PBXGroup;
+			children = (
+				98D325F729F7D9BA00EB3777 /* EventDetailView.swift */,
+				98D325F529F7D99800EB3777 /* HomeView.swift */,
+				98D3260F29F7E4CE00EB3777 /* EventItemView.swift */,
+			);
+			path = widgets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,8 +225,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D3260A29F7DD9900EB3777 /* AirbnbCereal_W_Md.otf in Resources */,
+				98D3260929F7DD9900EB3777 /* AirbnbCereal_W_Bk.otf in Resources */,
 				98D325E629F7CDBB00EB3777 /* Preview Assets.xcassets in Resources */,
+				98D3260D29F7DD9900EB3777 /* AirbnbCereal_W_Blk.otf in Resources */,
+				98D3260C29F7DD9900EB3777 /* AirbnbCereal_W_Lt.otf in Resources */,
 				98D325E329F7CDBB00EB3777 /* Assets.xcassets in Resources */,
+				98D3260B29F7DD9900EB3777 /* AirbnbCereal_W_Bd.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,8 +243,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				98D325E829F7CDBB00EB3777 /* Persistence.swift in Sources */,
+				98D3261229F7EE7D00EB3777 /* Event.swift in Sources */,
 				98D325E129F7CDB900EB3777 /* ContentView.swift in Sources */,
+				98D3261029F7E4CE00EB3777 /* EventItemView.swift in Sources */,
+				98D3260129F7DA9600EB3777 /* Config.swift in Sources */,
+				98D325F829F7D9BA00EB3777 /* EventDetailView.swift in Sources */,
+				98D325FF29F7DA6200EB3777 /* Styles.swift in Sources */,
 				98D325DF29F7CDB900EB3777 /* event_workshop_swiftuiApp.swift in Sources */,
+				98D325FB29F7DA1600EB3777 /* Consts.swift in Sources */,
+				98D325F629F7D99800EB3777 /* HomeView.swift in Sources */,
 				98D325EB29F7CDBB00EB3777 /* event_workshop_swiftui.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +383,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"event-workshop-swiftui/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "event-workshop-swiftui/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -305,6 +414,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"event-workshop-swiftui/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "event-workshop-swiftui/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
