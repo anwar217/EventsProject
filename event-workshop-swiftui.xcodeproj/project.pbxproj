@@ -23,8 +23,10 @@
 		98D3260B29F7DD9900EB3777 /* AirbnbCereal_W_Bd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98D3260629F7DD9900EB3777 /* AirbnbCereal_W_Bd.otf */; };
 		98D3260C29F7DD9900EB3777 /* AirbnbCereal_W_Lt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98D3260729F7DD9900EB3777 /* AirbnbCereal_W_Lt.otf */; };
 		98D3260D29F7DD9900EB3777 /* AirbnbCereal_W_Blk.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98D3260829F7DD9900EB3777 /* AirbnbCereal_W_Blk.otf */; };
-		98D3261029F7E4CE00EB3777 /* EventItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D3260F29F7E4CE00EB3777 /* EventItemView.swift */; };
 		98D3261229F7EE7D00EB3777 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D3261129F7EE7D00EB3777 /* Event.swift */; };
+		98D3261429F8077500EB3777 /* EventItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D3261329F8077500EB3777 /* EventItemView.swift */; };
+		98D3261629F8263200EB3777 /* EventHitemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D3261529F8263200EB3777 /* EventHitemView.swift */; };
+		98D3261A29F8271500EB3777 /* Performer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D3261929F8271500EB3777 /* Performer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,8 +48,10 @@
 		98D3260629F7DD9900EB3777 /* AirbnbCereal_W_Bd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AirbnbCereal_W_Bd.otf; path = ../../../../../Downloads/fonts/AirbnbCereal_W_Bd.otf; sourceTree = "<group>"; };
 		98D3260729F7DD9900EB3777 /* AirbnbCereal_W_Lt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AirbnbCereal_W_Lt.otf; path = ../../../../../Downloads/fonts/AirbnbCereal_W_Lt.otf; sourceTree = "<group>"; };
 		98D3260829F7DD9900EB3777 /* AirbnbCereal_W_Blk.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AirbnbCereal_W_Blk.otf; path = ../../../../../Downloads/fonts/AirbnbCereal_W_Blk.otf; sourceTree = "<group>"; };
-		98D3260F29F7E4CE00EB3777 /* EventItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventItemView.swift; sourceTree = "<group>"; };
 		98D3261129F7EE7D00EB3777 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		98D3261329F8077500EB3777 /* EventItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventItemView.swift; sourceTree = "<group>"; };
+		98D3261529F8263200EB3777 /* EventHitemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventHitemView.swift; sourceTree = "<group>"; };
+		98D3261929F8271500EB3777 /* Performer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Performer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				98D3261129F7EE7D00EB3777 /* Event.swift */,
+				98D3261929F8271500EB3777 /* Performer.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -162,7 +167,8 @@
 			children = (
 				98D325F729F7D9BA00EB3777 /* EventDetailView.swift */,
 				98D325F529F7D99800EB3777 /* HomeView.swift */,
-				98D3260F29F7E4CE00EB3777 /* EventItemView.swift */,
+				98D3261329F8077500EB3777 /* EventItemView.swift */,
+				98D3261529F8263200EB3777 /* EventHitemView.swift */,
 			);
 			path = widgets;
 			sourceTree = "<group>";
@@ -245,14 +251,16 @@
 				98D325E829F7CDBB00EB3777 /* Persistence.swift in Sources */,
 				98D3261229F7EE7D00EB3777 /* Event.swift in Sources */,
 				98D325E129F7CDB900EB3777 /* ContentView.swift in Sources */,
-				98D3261029F7E4CE00EB3777 /* EventItemView.swift in Sources */,
 				98D3260129F7DA9600EB3777 /* Config.swift in Sources */,
 				98D325F829F7D9BA00EB3777 /* EventDetailView.swift in Sources */,
+				98D3261429F8077500EB3777 /* EventItemView.swift in Sources */,
 				98D325FF29F7DA6200EB3777 /* Styles.swift in Sources */,
 				98D325DF29F7CDB900EB3777 /* event_workshop_swiftuiApp.swift in Sources */,
 				98D325FB29F7DA1600EB3777 /* Consts.swift in Sources */,
 				98D325F629F7D99800EB3777 /* HomeView.swift in Sources */,
 				98D325EB29F7CDBB00EB3777 /* event_workshop_swiftui.xcdatamodeld in Sources */,
+				98D3261A29F8271500EB3777 /* Performer.swift in Sources */,
+				98D3261629F8263200EB3777 /* EventHitemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
